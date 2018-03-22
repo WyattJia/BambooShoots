@@ -59,3 +59,19 @@ func (bc *Blockchain) AddBlock(data string) {
     bc.blocks = append(bc.blocks, newBlock)
     }
 ```
+
+### genesis block
+
+```golang
+func NewGenesisBlock() *Block {
+    return NewBlock("Genesis Block", []byte{})
+    }
+```
+
+```golang
+// new a genesis block
+func NewBlockchain() *Blockchain {
+    return &Blockchain{[]*Block{NewGenesisBlock()}}
+    }
+```
+
