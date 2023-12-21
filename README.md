@@ -1,8 +1,12 @@
-# hello_blockchain
+![](./image/BambooShoots.jpg)
+
+# Bamboo Shoots
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 
 1. 
   ``` bash
-  cd /path/to/hello_blockchain
+  cd /path/to/BambooShoots
   ```
 
 2. 
